@@ -31,7 +31,7 @@ CLASS_NAMES = [
     "Mouth", "Muzzle", "Neck", "Nose", "Person",
     "Plant", "Pottedplant", "Pot", "Saddle", "Sceen",
     "Sheep", "Sofa", "Stern", "Tail", "Torso",
-    "Tvmonitor", "Wheel", "Window",
+    "Tvmonitor", "Wheel", "Window", "Screen",
 ]
 
 # fmt: on
