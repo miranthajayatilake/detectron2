@@ -14,11 +14,26 @@ __all__ = ["register_pascal_voc"]
 
 
 # fmt: off
+# CLASS_NAMES = [
+#     "aeroplane", "bicycle", "bird", "boat", "bottle", "bus", "car", "cat",
+#     "chair", "cow", "diningtable", "dog", "horse", "motorbike", "person",
+#     "pottedplant", "sheep", "sofa", "train", "Tvmonitor",
+# ]
+
 CLASS_NAMES = [
-    "aeroplane", "bicycle", "bird", "boat", "bottle", "bus", "car", "cat",
-    "chair", "cow", "diningtable", "dog", "horse", "motorbike", "person",
-    "pottedplant", "sheep", "sofa", "train", "Tvmonitor",
+    "Aeroplane", "Animal_Wing", "Arm", "Artifact_Wing", "Beak", "Bicycle", "Bird", "Boat",
+    "Body", "Bodywork", "Bottle", "Bus", "Cap", "Car", "Cat",
+    "Chain_Wheel", "Chair", "Coach", "Cow", "Diningtable",
+    "Dog", "Door", "Ear", "Ebrow", "Engine",
+    "Eye", "Foot", "Hair", "Handlebar", "Hand",
+    "Headlight", "Head", "Hoof", "Horn", "Horse",
+    "Leg", "License_plate", "Locomotive", "Mirror", "Motorbike",
+    "Mouth", "Muzzle", "Neck", "Nose", "Person",
+    "Plant", "Pottedplant", "Pot", "Saddle", "Sceen",
+    "Sheep", "Sofa", "Stern", "Tail", "Torso",
+    "Tvmonitor", "Wheel", "Window",
 ]
+
 # fmt: on
 
 
