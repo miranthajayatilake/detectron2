@@ -44,6 +44,9 @@ def read_image(file_name, format=None):
     """
     with PathManager.open(file_name, "rb") as f:
         image = Image.open(f)
+        
+        # Rotation added to handle the width/height problem
+        image=image.rotate(90, expand=True)
 
         if format is not None:
             # PIL only supports RGB, so convert to RGB and flip channels over below
